@@ -1,14 +1,13 @@
 export class CalculatorUtils {
-  // Вычисление математического выражения
+  // Вычисление математики
   static calculate(expression: string): number {
     try {
-      // Очистка от опасных символов
+      // Очистка говна
       const sanitized = expression
         .replace(/[^0-9+\-*/(). ]/g, '')
         .replace(/×/g, '*')
         .replace(/÷/g, '/')
       
-      // TODO: заменить на парсер выражений для безопасности
       return Function(`"use strict"; return (${sanitized})`)()
     } catch (error) {
       throw new Error('Неверное выражение')
