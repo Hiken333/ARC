@@ -9,7 +9,7 @@
 7) Создал главную страницу.
 
 
-Git(To do)
+# Git(To do)
 
 1)Создал 2 ветки: main и Sakugai(dev)
 
@@ -21,6 +21,12 @@ Git(To do)
 
 5)Спулил с Sakugai в main
 
-6)Вернулся на Sakugai и дописал readme.md
+6)Вернулся на Sakugai и дописал readme.md(todo git)
 
-7)Смёржил на main
+7)сделал тоже самое
+
+
+# Запуск
+
+1) npm install
+2) npm run dev
